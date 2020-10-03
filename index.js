@@ -5,9 +5,7 @@ const app = express();
 
 // JSON encoder
 app.use(express.urlencoded({ extended: true }));
-
 app.use(express.json());
-
 app.use(routes);
 
 const PORT = 3001;
